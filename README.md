@@ -14,15 +14,4 @@ The Lineup is an original deduction puzzle inspired by Clues by Sam. The Passwor
 
 In 2048, a move that slides or merges a tile adds exactly one new tile. Its cell is chosen uniformly from the empty cells after the move. The new tile is a 2 with 90% probability and a 4 with 10% probability. Blocked inputs leave the board and score alone.
 
-## Run locally
 
-Keep the files together and open `index.html`. No install or build command is required.
-
-## Publish on GitHub Pages
-
-1. Create a public repository named `all-you-can-play`.
-2. Upload the extracted files with `index.html` directly in the repository root. Commit to `main`.
-3. Open **Settings → Pages → Deploy from a branch** and select **main** and **/(root)**.
-4. Return to the Pages settings and click **Visit site** when deployment is ready.
-
-To publish an update, commit your changed files to the same branch.
