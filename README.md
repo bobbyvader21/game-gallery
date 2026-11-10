@@ -15,3 +15,4 @@ The Lineup is an original deduction puzzle inspired by Clues by Sam. The Passwor
 In 2048, a move that slides or merges a tile adds exactly one new tile. Its cell is chosen uniformly from the empty cells after the move. The new tile is a 2 with 90% probability and a 4 with 10% probability. Blocked inputs leave the board and score alone.
 
 
+Created by **RBC Studios**.
