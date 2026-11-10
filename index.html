@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffc907">
+<meta name="description" content="Five free browser games by RBC Studios.">
+<title>All You Can Play | RBC Studios</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="arcade.js"></script>
+<script defer src="puzzles.js"></script>
+<script defer src="app.js"></script>
+</head>
+<body>
+<header class="wrap masthead"><a class="brand" href="#home"><span aria-hidden="true">✦</span> ALL YOU CAN PLAY</a><span class="studio">RBC STUDIOS</span></header>
+<main class="wrap">
+<section id="home">
+  <div class="hero">
+    <div><span class="eyebrow">THE RBC STUDIOS GAME ROOM</span><h1>All You<br>Can Play<span>.</span></h1><p>Five games, from chasing high scores to untangling clues. Pick one and play.</p><a class="button dark" href="#games">Browse games <span aria-hidden="true">↓</span></a></div>
+    <svg class="hero-art" viewBox="0 0 400 270" aria-hidden="true">
+      <circle cx="208" cy="136" r="117" fill="#ffe486"/><circle cx="208" cy="136" r="93" fill="none" stroke="#202b32" stroke-dasharray="4 8"/>
+      <g transform="translate(120 48) rotate(-13 75 80)"><rect x="4" y="7" width="149" height="164" rx="16" fill="#222f39"/><rect width="149" height="164" rx="16" fill="#fff" stroke="#222f39" stroke-width="3"/>
+      <rect x="16" y="17" width="117" height="88" rx="8" fill="#daf1ff"/><path d="M37 76h25V55h24V37h26" fill="none" stroke="#1472b7" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><circle cx="102" cy="76" r="6" fill="#ef543d"/>
+      <path d="M36 118v28m-14-14h28" stroke="#222f39" stroke-width="8" stroke-linecap="round"/><circle cx="108" cy="131" r="9" fill="#ffc907"/></g>
+      <g transform="translate(250 104) rotate(13 44 48)"><rect x="4" y="6" width="96" height="103" rx="12" fill="#222f39"/><rect width="96" height="103" rx="12" fill="#2e9df7" stroke="#222f39" stroke-width="3"/><text x="48" y="62" text-anchor="middle" fill="#122a3d" font-size="34" font-weight="900">2048</text></g>
+      <path d="M307 32v32m-16-16h32M83 126v26m-13-13h26" stroke="#222f39" stroke-width="3" stroke-linecap="round"/><circle cx="335" cy="230" r="5" fill="#222f39"/>
+    </svg>
+  </div>
+  <section class="catalog" id="games" aria-labelledby="catalog-title">
+    <div class="section-head"><div><span class="eyebrow">THE LINEUP</span><h2 id="catalog-title">Choose your game</h2></div><span class="pill">05 GAMES</span></div>
+    <div class="cards" id="cards"></div>
+  </section>
+</section>
+<section id="room" hidden aria-labelledby="game-title">
+  <a class="back" href="#home">← All games</a>
+  <div class="room-head"><div><span class="eyebrow" id="genre"></span><h1 id="game-title" tabindex="-1"></h1><p id="game-description"></p></div></div>
+  <div class="game-panel" id="game"></div>
+</section>
+</main>
+<footer class="wrap"><strong>All You Can Play</strong><span>Created by RBC Studios</span></footer>
+</body>
+</html>
